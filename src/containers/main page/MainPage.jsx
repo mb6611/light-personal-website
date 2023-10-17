@@ -1,10 +1,12 @@
 import React from 'react'
 import './MainPage.css'
+import {Header, Navbar} from "../../components/index.js";
 
 const MainPage = () => {
     return (
-        <div>
-            MainPage
+        <div className="main">
+            <Navbar/>
+            <Header/>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.navbar__name {
+
+}
+
+.navbar__subpages {
+    display: flex;
+    gap: 100px;
+}

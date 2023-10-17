@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.matthew-headshot {
+    height: auto;
+    width: 20%;
+    border-radius: 70px;
+    border-color: black;
+    border-width: 8px;
+    border-style: solid;
+    box-shadow: 3px 5px 3px #3896E0;
+}
+
+.header p {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, rgb(56, 150, 224) 0%, rgb(95, 104, 113) 100%);
+    background-clip: text;
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.emoji {
+    -webkit-text-fill-color: initial;
+
+}

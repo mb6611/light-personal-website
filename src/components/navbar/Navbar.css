@@ -4,13 +4,31 @@
     align-items: center;
     gap: 80px;
     width: 100%;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 .navbar__name {
+    /*-webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
 
+    background: linear-gradient(45deg, rgb(56, 150, 224) 0%, rgb(95, 104, 113) 100%);*/
+
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 800;
+
+    text-align: center;
 }
 
 .navbar__subpages {
     display: flex;
     gap: 100px;
+
+    font-family: var(--font-family);
+    color: #5f6871;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
 }
